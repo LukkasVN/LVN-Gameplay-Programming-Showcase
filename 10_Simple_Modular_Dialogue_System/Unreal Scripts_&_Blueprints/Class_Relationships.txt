@@ -1,0 +1,33 @@
+Made by Lucas Varela Negro [Open-Source]
+----------------------------------------------
+
+This file provides a quick overview of the class hierarchy and relationships used in the dialogue system.  
+It serves as a reference for understanding how the C++ and Blueprint classes connect and interact.  
+Useful when navigating or extending the system.
+
+----------------------------------------------
+
+HUD Hierarchy
+BP_GameHUD (Blueprint)
+    → inherits from ReferencesHUD (C++)
+        → inherits from HUD
+
+-------------------------------------------
+
+Widget Hierarchy
+BP_DialogueWidget (Blueprint)
+    → inherits from DialogueWidget (C++)
+        → inherits from UserWidget
+
+-------------------------------------------
+
+Dialogue Logic
+DialogueComponent (C++)
+    → inherits from ActorComponent
+
+-------------------------------------------
+
+NPC Interaction (Example)
+BP_DialogueInteractableNPC (Blueprint)
+    → implements DialogueComponent in the blueprint
+    → inherits from BP_Base_Interactable
