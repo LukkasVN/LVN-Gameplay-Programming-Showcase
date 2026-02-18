@@ -1,0 +1,1 @@
+The AudioEmitter script is to use the PlayAtOwnPosition() method in UnityEvents adding this script to the GameObject that will trigger the UnityEvent with the sound.
