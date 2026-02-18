@@ -2,7 +2,7 @@
 
 # LVN Gameplay Programming Showcase
 
-Welcome to the public repository for the **LVN Gameplay Programming Showcase** series. This series focuses on recreating gameplay mechanics and core systems in **Unreal Engine (C++ and if I  got the time Blueprints)** and **Unity (C#)**, with an emphasis on clean, engine-agnostic code design and functional prototypes.
+Welcome to the public repository for the **LVN Gameplay Programming Showcase** series. This series focuses on recreating gameplay mechanics and core systems in **Unreal Engine (C++ and Blueprints, usually hybrid and sometimes separate)** and **Unity (C#)**, with an emphasis on clean, engine-agnostic code design and functional prototypes.
 
 All mechanics were **implemented from scratch** to ensure a deep understanding of how the systems work and how to handle them independently.
 
