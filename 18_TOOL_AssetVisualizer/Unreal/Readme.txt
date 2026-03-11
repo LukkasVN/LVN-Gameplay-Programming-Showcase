@@ -1,0 +1,1 @@
+In order to see the reflected changes or additions to the grid in this Unreal version you must press the "RefreshLayout" button.

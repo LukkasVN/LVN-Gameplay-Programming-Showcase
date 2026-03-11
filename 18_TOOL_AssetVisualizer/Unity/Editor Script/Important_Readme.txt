@@ -1,0 +1,1 @@
+This script must be inside an "Editor" folder in you unity folder hierarchy in order to make the reset button work.
