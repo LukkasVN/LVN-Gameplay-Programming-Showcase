@@ -25,6 +25,8 @@ Everything else in this section is example scaffolding to demonstrate the system
 
 **Unreal Note**: For items spawned via the subsystem, the `UDroppableItemData` asset must have its `ItemClass` field pointing to the correct Blueprint actor class. Items placed directly in the level assign `ItemData` via the Details panel.
 
+**BOTH ENGINES IMPORTANT NOTE**: Make sure to properly configure the collision masks between droppables, spawners, entities, and the player so they ignore each other when necessary. Otherwise, you may encounter strange and unintended behaviors, such as objects and the player flying into space when collecting a coin.
+
 ---
 
 ## Core Features
