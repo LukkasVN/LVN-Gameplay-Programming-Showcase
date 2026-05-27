@@ -1,0 +1,7 @@
+- The attached FP_Character / FP_Controller is included to show how the destructible system hooks into the player controller.
+
+
+IMPORTANT:
+- The recommended approach is to inspect those additions and apply them to your own controller rather than using this file directly.
+
+- If you do not have an existing controller, you can use it as a base but will need to pull in the dependencies from the previous sections.
